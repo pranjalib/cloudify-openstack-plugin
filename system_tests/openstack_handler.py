@@ -317,14 +317,15 @@ class OpenstackHandler(BaseHandler):
 
         failed = {
             'servers': {},
-            'routers': {},
-            'ports': {},
+            'resourcegroups': {},
+            'securitygroups': {},
+            'storageaccounts': {},
             'subnets': {},
-            'networks': {},
-            'key_pairs': {},
-            'floatingips': {},
-            'security_groups': {},
-            'volumes': {}
+            'publicips': {},
+            'vnets': {},
+            'nics': {},
+            'availabilitysets': {},
+            'serverwithnics': {}
         }
 
         volumes_to_remove = []
